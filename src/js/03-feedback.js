@@ -34,6 +34,5 @@ function onFormReset(event) {
    if (Object.keys(formData).length) {
 console.log(formData);
   }
-  delete formData.email;
-  delete formData.message;
+  
 }
